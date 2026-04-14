@@ -46,22 +46,26 @@
             // 
             // playButton
             // 
+            this.playButton.BackColor = System.Drawing.Color.Green;
+            this.playButton.ForeColor = System.Drawing.Color.White;
             this.playButton.Location = new System.Drawing.Point(63, 282);
             this.playButton.Name = "playButton";
             this.playButton.Size = new System.Drawing.Size(181, 70);
             this.playButton.TabIndex = 1;
-            this.playButton.Text = "button1";
-            this.playButton.UseVisualStyleBackColor = true;
+            this.playButton.Text = "start";
+            this.playButton.UseVisualStyleBackColor = false;
             this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
             // stopButton
             // 
+            this.stopButton.BackColor = System.Drawing.Color.Red;
+            this.stopButton.ForeColor = System.Drawing.Color.White;
             this.stopButton.Location = new System.Drawing.Point(558, 282);
             this.stopButton.Name = "stopButton";
             this.stopButton.Size = new System.Drawing.Size(181, 70);
             this.stopButton.TabIndex = 2;
-            this.stopButton.Text = "button2";
-            this.stopButton.UseVisualStyleBackColor = true;
+            this.stopButton.Text = "stop";
+            this.stopButton.UseVisualStyleBackColor = false;
             this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
             // 
             // radioPlayer
